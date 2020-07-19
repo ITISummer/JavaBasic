@@ -1,4 +1,4 @@
-﻿package com.atguigu.p2.util;
+package myproject02.util;
 
 
 import java.util.*;

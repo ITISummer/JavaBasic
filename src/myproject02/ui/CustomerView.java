@@ -1,8 +1,8 @@
-package com.atguigu.p2.ui;
+package myproject02.ui;
 
 import com.atguigu.p2.bean.Customer;
 import com.atguigu.p2.service.CustomerList;
-import com.atguigu.p2.util.CMUtility;
+import myproject02.util.CMUtility;
 
 /**
  * 

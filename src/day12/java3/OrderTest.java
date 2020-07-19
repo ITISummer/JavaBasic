@@ -1,6 +1,6 @@
 package day12.java3;
 
-import com.atguigu.java2.Order;
+import day12.java2.Order;
 
 public class OrderTest {
 	public static void main(String[] args) {

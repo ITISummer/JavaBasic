@@ -1,11 +1,11 @@
 package day10.java2;
 
+import day10.exer3.Account;
+import day10.exer4.Bank;
+import day10.java2.java3.Dog;
+
 import java.lang.reflect.Field;
 import java.util.*;
-
-import com.atguigu.exer4.Account;
-import com.atguigu.exer4.Bank;
-import com.atguigu.java2.java3.Dog;
 
 import static java.lang.System.*;
 import static java.lang.Math.*;
@@ -48,10 +48,10 @@ public class PackageImportTest {
 		System.out.println("hello!");
 		
 		Person p = new Person();
-		
-		Account acct = new Account(1000);
+
+//		day10.exer4.Account acct = new Account(1000);
 		//全类名的方式显示
-		com.atguigu.exer3.Account acct1 = new com.atguigu.exer3.Account(1000,2000,0.0123);
+		day10.exer3.Account acct1 = new Account(1000,2000,0.0123);
 		
 		Date date = new Date();
 		java.sql.Date date1 = new java.sql.Date(5243523532535L);
